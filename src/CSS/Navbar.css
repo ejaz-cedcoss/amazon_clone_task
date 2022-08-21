@@ -88,6 +88,9 @@
     cursor: pointer;
 
 }
+#s-bt-icon{
+    height: 5vh;
+}
 #select-1{
     height: 100%;
     width: 100%;
@@ -325,6 +328,22 @@ font-size: 49px;
     #bt-img{
         height: 2vh;
     }
-    
+
+    #div-1,#div-2,#div-3,#div-4,#div-5,#div-6,#div-7{
+        margin-left: 2px;
+    }
+    #s-bt-icon{
+        height: 2vh;
+
+    }
+  
+   #div-3{
+        height: 15%;
+    }
+    #cartIcon{
+        font-size: 19px;
+    }
+
+
     
 }

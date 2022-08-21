@@ -1,8 +1,43 @@
 .card-div{
-    z-index: 1; position: absolute; top: 55vh; display: flex; width: 80%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background:linear-gradient(to top,rgb(153, 165, 153),rgb(219, 110, 110))
+}
+.cards{
+    width: 100%;
+
+
+    margin: 5px 20px;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+}
+.row-1,.row-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    cursor: pointer;
 }
 
-#card-child{
-    width: 100%;
-    margin: 5px;
+.row-1>div,.row-2>div{
+    margin: 18px;
+}
+#card-link{
+    color: rgb(56, 162, 248) !important;
+   margin-left: 15px;
+}
+
+@media screen and (max-width:750px) {
+
+     .card-div{
+        display: flex;
+        flex-direction: column;
+     }
+     .cards{
+        margin: 0;
+     }
+     #card-link{
+        margin-left: 110px;
+     }
 }

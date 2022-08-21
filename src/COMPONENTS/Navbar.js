@@ -103,7 +103,7 @@ const Navbar = () => {
 
                     <div id='search'>
                       <button id='search-btn'>
-                         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png' alt='' height='48vh'/>
+                         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png' alt='' id='s-bt-icon'/>
                       </button>
                     </div>
                 
@@ -219,7 +219,7 @@ const Navbar = () => {
                 <div id='div-7'>
                  
                    <span><ShoppingCartIcon id='cartIcon'/></span>
-                   <span><strong>Cart</strong></span>
+                   {/* <span id='crt'><strong>Cart</strong></span> */}
 
                  </div>
 

@@ -259,12 +259,12 @@ const Footer = () => {
    </div>
 
    <div className='last-footer'>
-      <div style={{width:"60%",margin:"auto",height:"5vh" ,textAlign:"center",display:"flex",justifyContent:"center"}} className='lst-footer'>
+      <div  className='lst-footer'>
 
-        <div><a>Condition of Use and Sale</a></div>
-        <div><a>Privacy Notice</a></div>
-        <div><a>Interest-Based Ads</a></div>
-        <div><a>@1996-2022, Amazon.com, Inc. or its affiliates</a></div>
+        <div><a href='adsa'>Condition of Use and Sale</a></div>
+        <div><a href='adsa'>Privacy Notice</a></div>
+        <div><a href='adsa'>Interest-Based Ads</a></div>
+        <div><a href='adsa'>@1996-2022, Amazon.com, Inc. or its affiliates</a></div>
      
         
     </div>

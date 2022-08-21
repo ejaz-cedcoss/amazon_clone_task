@@ -165,6 +165,16 @@ li{
 .last-footer{
     padding: 15px;
     background-color:rgb(32, 47, 59) ;
+   
+
+}
+.lst-footer{
+    width: 60%;
+    /* height: 5vh; */
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .lst-footer>div>a{
     color: white !important;
@@ -179,3 +189,22 @@ li{
     width: 100%;
 }
 
+
+@media screen and (max-width:750px) {
+    .footer-div-2{
+        padding: 2px;
+    }
+    .footer-div-2-inside{
+        margin: 2px 2px;
+    }
+    .list-head{
+        margin-left: 10px;
+    }
+    li{
+        margin: 2px;
+    }
+
+
+
+    
+}
